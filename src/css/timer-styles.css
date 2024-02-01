@@ -1,3 +1,4 @@
+@import url(./styles.css);
 body {
   padding: 20px;
 }
@@ -150,56 +151,3 @@ section {
   margin-top: 16px;
   border-top: 1px solid #c1c1c1 !important;
 }
-.iziToastMsg {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 16px;
-  padding: 0;
-  margin: 0;
-}
-.iziToast .iziToast-close {
-  background-size: 16px;
-}
-
-#errorMsg {
-  padding: 20px;
-  background: #ef4040;
-}
-#errorMsg .iziToast {
-  margin: 0;
-  padding: 0;
-}
-#errorMsg .iziToast element.style {
-  margin: 0;
-  padding: 0;
-}
-#errorMsg .iziToast-body {
-  padding: 0;
-  margin: 0;
-}
-#errorMsg .iziToast-body .iziToast-texts {
-}
-.iziToast-close {
-  color: #fff;
-}
-#errorMsg .iziToast-close {
-  background: url(../img/x-icon.svg) no-repeat 50% 50%;
-  opacity: 1;
-}
-#errorMsg .iziToast-title,
-#errorMsg .iziToast-message {
-  font-family: 'Montserrat', sans-serif;
-  color: #fff;
-  font-size: 16px;
-  letter-spacing: 0.5px;
-  font-weight: 300;
-}
-#errorMsg .iziToast-title {
-  font-weight: 600;
-  margin-right: 8px;
-}
-#errorMsg .iziToast-message {
-  margin-right: 24px;
-}
-/* #errorMsg .iziToast-progressbar {
-  background: #b51b1b;
-} */

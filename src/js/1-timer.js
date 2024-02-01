@@ -42,6 +42,7 @@ const options = {
           message: 'Please choose a date in the future',
           timeout: 3000,
           position: 'topRight',
+          backgroundColor: '#ef4040',
           progressBarColor: '#b51b1b',
           })
         btn.disabled = true;
